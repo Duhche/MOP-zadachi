@@ -19,7 +19,7 @@ namespace MOP_zadachi
 
             int choice = int.Parse(Console.ReadLine());
 
-            if (choice == 1) // BINARY
+            if (choice == 1)
             {
                 Console.WriteLine("Convert to: 1=Octal 2=Decimal 3=Hex");
                 int choice2 = int.Parse(Console.ReadLine());
@@ -30,7 +30,7 @@ namespace MOP_zadachi
                 else if (choice2 == 2) Console.WriteLine(BinToDec(bin));
                 else if (choice2 == 3) Console.WriteLine(BinToHex(bin));
             }
-            else if (choice == 2) // OCTAL
+            else if (choice == 2)
             {
                 Console.WriteLine("Convert to: 1=Binary 2=Decimal 3=Hex");
                 int choice2 = int.Parse(Console.ReadLine());
@@ -41,7 +41,7 @@ namespace MOP_zadachi
                 else if (choice2 == 2) Console.WriteLine(OctToDec(oct));
                 else if (choice2 == 3) Console.WriteLine(OctToHex(oct));
             }
-            else if (choice == 3) // DECIMAL
+            else if (choice == 3)
             {
                 Console.WriteLine("Convert to: 1=Binary 2=Octal 3=Hex");
                 int choice2 = int.Parse(Console.ReadLine());
@@ -52,7 +52,7 @@ namespace MOP_zadachi
                 else if (choice2 == 2) Console.WriteLine(DecToOct(dec));
                 else if (choice2 == 3) Console.WriteLine(DecToHex(dec));
             }
-            else if (choice == 4) // HEX
+            else if (choice == 4)
             {
                 Console.WriteLine("Convert to: 1=Binary 2=Octal 3=Decimal");
                 int choice2 = int.Parse(Console.ReadLine());
@@ -67,7 +67,7 @@ namespace MOP_zadachi
             Console.ReadLine();
         }
 
-        // ================= DECIMAL =================
+        
         static string DecToBin(int n)
         {
             if (n == 0) return "0";
@@ -106,7 +106,7 @@ namespace MOP_zadachi
             return res;
         }
 
-        // ================= BINARY =================
+        
         static int BinToDec(string bin)
         {
             int res = 0;
@@ -131,7 +131,7 @@ namespace MOP_zadachi
             return DecToHex(BinToDec(bin));
         }
 
-        // ================= OCTAL =================
+        
         static int OctToDec(string oct)
         {
             int res = 0;
@@ -155,7 +155,7 @@ namespace MOP_zadachi
             return DecToHex(OctToDec(oct));
         }
 
-        // ================= HEX =================
+        
         static int HexToDec(string hex)
         {
             int res = 0;

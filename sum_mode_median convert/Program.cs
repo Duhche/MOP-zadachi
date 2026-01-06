@@ -19,10 +19,10 @@ namespace sum_mode_median_convert
                 .Select(s => double.Parse(s, CultureInfo.InvariantCulture))
                 .ToList();
 
-            // Sum
+            
             double sum = numbers.Sum();
 
-            // Mode
+            
             double mode = numbers
                 .GroupBy(n => n)
                 .OrderByDescending(g => g.Count())
@@ -30,7 +30,7 @@ namespace sum_mode_median_convert
                 .First()
                 .Key;
 
-            // Median
+            
             numbers.Sort();
             double median;
             int count = numbers.Count;

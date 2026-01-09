@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matrix 3d rank", "matrix 3d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polinom", "Polinom\Polinom.csproj", "{A5D74353-F445-41BE-B2C1-4599EB26437B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vectors", "Vectors\Vectors.csproj", "{39921770-D316-4686-8F54-BD77F5AEDC9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A5D74353-F445-41BE-B2C1-4599EB26437B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D74353-F445-41BE-B2C1-4599EB26437B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D74353-F445-41BE-B2C1-4599EB26437B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39921770-D316-4686-8F54-BD77F5AEDC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39921770-D316-4686-8F54-BD77F5AEDC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39921770-D316-4686-8F54-BD77F5AEDC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39921770-D316-4686-8F54-BD77F5AEDC9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
